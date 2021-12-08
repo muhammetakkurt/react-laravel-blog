@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,
+body {
+  @apply w-full h-full;
+}
+
+#root {
+  @apply mx-auto h-full;
+}
+
+.wrapper {
+  @apply mx-auto pt-3;
+  width: 700px;
+}
+
+.profile-photo {
+  @apply object-cover rounded-full h-full;
+}
+
+.profile-line {
+  @apply border-l border-black w-1 mx-auto;
+  height: calc(100% - 88px);
+}
